@@ -1,0 +1,147 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 4px;
+	background-color: #000;
+}
+
+.navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    color: red;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active{
+
+	background-color: #b1b1b1;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+
+	color: #fff;
+}
+
+
+/*-------------------------- WEB ----------------------------*/
+
+.carta{
+
+	background-color: #689F38;
+	color: #fff;
+	padding: 8% 8% 3% 8%;
+	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.carta .table{
+
+	background-color: #AED581;
+}
+
+.modal-header, .modal-footer{
+
+	background-image: url("../img/bonfire.png");
+	color: #fff;
+}
+
+.tipo_comida{
+
+	width: 100%;
+	background-color: #283593;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 3% 8% 3% 8%;
+	color: #fff;
+}
+
+.tipo_comida .table{
+
+	background-color: #9FA8DA;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.locales{
+
+	background-color: #F9A825;
+	color: #fff;
+	padding: 3% 8% 3% 8%;
+	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.locales_res{
+
+	background-color: #FFF9C4;
+	color: #000;
+	padding: 3% 8% 3% 8%;
+	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.locales .table{
+
+	background-color: #FFF176;
+	width: 60%;
+	margin-left: 20%;
+
+}
+
+.mesas{
+
+	background-color: #006064;
+	color: #fff;
+	padding: 3% 8% 3% 8%;
+	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.mesas .table{
+
+	background-color: #4DD0E1;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.ofertas{
+
+	background-color: #E64A19;
+	color: #fff;
+	padding: 3% 8% 3% 8%;
+	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.caja_chart{
+
+    margin: auto;
+    max-width: 250px;
+    padding: 20px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+}
+
+.caja_chart select{
+
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.resultados_chart{
+	
+    margin: auto;
+    margin-top: 40px;
+    width: 1000px;
+}

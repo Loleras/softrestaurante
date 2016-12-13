@@ -1,0 +1,147 @@
+button {
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  box-shadow: none;
+  border-width: 0px;
+  border-style: outset;
+  font-size: 0.8em;
+  border-color: buttonface;
+}
+
+.center-paso {
+  text-align: center;
+}
+
+.button-paso {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1em 0px;
+  width: 250px;
+  background: #ee3443;
+  outline: none;
+  color: #fff;
+}
+
+.modal-wrapper-paso {
+  
+  width: 350px;
+  background: #fff;
+  margin: 0 auto;
+  transform-origin: top left;
+  margin-top: 10%;
+}
+
+.modal-header-paso {
+  padding: 1em 0.5em;
+  background: #fff;
+  border: 1px solid #eee;
+  text-align: center;
+}
+.modal-header-paso span {
+  width: 70px;
+  background: #eee;
+  border-radius: 0.5em;
+  margin: 0px 8px;
+  display: inline-block;
+  height: 15px;
+}
+.modal-header-paso span.is-active {
+  background: #ee3443;
+}
+
+.modal-bodies-paso {
+  position: relative;
+  perspective: 1000px;
+}
+
+.modal-body-paso {
+  background: #fff;
+  display: none;
+  box-shadow: 0px 35px 30px -30px;
+  transform-origin: top left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  padding: 30px 20px;
+}
+.modal-body-paso p {
+  font-size: 0.85em;
+  padding: 0px 0px 8px 0px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.modal-body-paso label span {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: block;
+  margin: 0px 0px 8px 0px;
+}
+.modal-body-paso input, .modal-body-paso select {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 0.8em;
+  margin-bottom: 2em;
+  transition: all 300ms ease-in-out;
+}
+.modal-body-paso input:focus, .modal-body-paso select:focus {
+  outline: none;
+  border: 1px solid rgba(238, 52, 67, 0.6);
+}
+
+.is-showing {
+  display: block;
+}
+
+.animate-out {
+  transition: all 300ms ease-in-out;
+  animation: out 600ms ease-in-out forwards;
+}
+
+.animate-in {
+  transition: all 300ms ease-in-out;
+  animation: in 600ms ease-in-out forwards;
+  display: block;
+}
+
+.animate-up {
+  transition: all 300ms ease-in-out;
+  animation: up 600ms ease-in-out forwards;
+}
+
+
+@keyframes out {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  33% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(-800px);
+  }
+}
+@keyframes in {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-800px);
+  }
+}

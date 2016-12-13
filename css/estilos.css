@@ -1,0 +1,864 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.contenedor{
+
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+.contenedor[class*="cont-"]{
+	
+}
+
+.cont-index{
+
+	width: 100%;
+	height: 662px;
+	background-image: url(../img/portada.jpg);
+
+}
+
+.cont-menu{
+
+	width: 100%;
+	overflow: auto;
+	background-image: url(../img/fondomenu.jpg);
+
+}
+
+.cont-local{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondolocal.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+.cont-reservaciones{
+
+	width: 100%;
+	height: 1750px;
+	background-image: url(../img/fondoreservaciones.jpg);
+	background-attachment: fixed;
+	background-position: 50% 20%;
+
+}
+
+.cont-contactenos{
+
+	width: 100%;
+	height: 1760px;
+	background-image: url(../img/fondocontactenos2.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+.cont-peru{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondoperu.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+.cont-china{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondochina2.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+.cont-egipto{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondoegipto.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+}
+
+.cont-italia{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondoitalia2.jpg);
+	background-attachment: fixed;
+	background-position: 50% 100%;
+
+}
+
+.cont-australia{
+
+	width: 100%;
+	height: 1700px;
+	background-image: url(../img/fondoaustralia.jpg);
+	background-attachment: fixed;
+	background-position: 70% 50%;
+
+}
+
+/*---------------------------BANNER----------------------------*/
+.banner{
+
+	width: 100%;
+	height: 80%;
+    padding-left: 5%;
+    box-sizing: border-box;
+
+}
+
+a .logo{
+
+	width: 250px;
+	height: 250px;
+	float: right;
+
+}
+
+.banner a{
+
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	margin-left: 5%;
+}
+
+.banner a:hover{
+
+	color: #000;
+}
+
+.letrero{
+
+	float: left;
+	width: 400px;
+	height: 90%;
+	position: relative; 
+	display: none;
+
+}
+
+.menu{
+
+	position: absolute;
+	top: 195px;
+	left: 160px;
+	font-family: 'Gloria Hallelujah', cursive;
+	display: none;
+}
+
+/*------------------------ESTILOS PARA LOCAL--------------------*/
+.local{
+
+	position: absolute;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 255px;
+	left: 160px;
+	display: none;
+}
+
+.cuadro1{
+
+	/*transform: rotate(-180deg);*/
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	left: 40%;
+
+}
+.cuadro2{
+
+	/*transform: rotate(-180deg);*/
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	left: 40%;
+	top: 35%;
+}
+.cuadro3{
+
+	/*transform: rotate(-180deg);*/
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	left: 40%;
+	top: 62%;
+}
+
+.titulolocal{
+
+	color: #fff;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: 5%;
+}
+
+/*-------------------SLIDE---------------------*/
+
+.main1 {
+	width:50%;
+	max-width:1000px;
+	margin:20px auto;
+	position: relative;
+	top: 4.5%;
+}
+
+.main2 {
+	width:50%;
+	max-width:1000px;
+	margin:20px auto;
+	position: relative;
+	top: 15.9%;
+}
+
+.main3 {
+	width:50%;
+	max-width:1000px;
+	margin:20px auto;
+	position: relative;
+	top: 27.7%;
+}
+ 
+.slides {
+	width:100%;
+}
+ 
+.slides img {
+	width:100%;
+}
+ 
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+ 
+.slidesjs-pagination li {
+	float:left;
+}
+ 
+.slidesjs-pagination li a {
+	display:block;
+	padding:7px 10px;
+	color:#fff;
+	text-decoration:none;
+}
+ 
+.slidesjs-pagination li a:hover {
+	background:#000;
+}
+ 
+.slides .active {
+	background:#000;
+	text-decoration: none;
+}
+ 
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration: none;
+	display:inline-block;
+	padding:10px 10px;
+	float:right;
+}
+
+.slidesjs-navigation:hover{
+
+	background:#000;
+	color:#fff;
+	text-decoration: none;
+}
+
+/*------------------------ESTILOS PARA RESERVACIONES--------------------*/
+
+
+.reservaciones{
+
+	position: absolute;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 320px;
+	left: 110px;
+	display: none;
+}
+
+.advertenciacajon{
+
+	width: 100%;
+}
+
+.letraad{
+
+	font-family: 'Indie Flower', cursive;
+}
+.letraad2{
+
+	font-family: 'Indie Flower', cursive;
+	font-size: 17px;
+}
+
+.advertencia{
+
+	width: 70%;
+	background-color: black;
+	border-radius: 20px;
+	margin-top: 6%; 
+	margin-left: 14%;
+	padding: 2%;
+	color: #fff;
+	opacity: 0.8;
+	-webkit-box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+	-moz-box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+	box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+}
+
+
+
+/*------------------------ESTILOS PARA CONTACTENOS--------------------*/
+
+.contactenos{
+
+	position: absolute;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 385px;
+	left: 120px;
+	display: none;
+}
+
+.titulomap{
+
+	color: #fff;
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.mapita{
+
+	width:80%;
+	height:500px;
+	margin-left:10%;
+	margin-top:5%;
+}
+
+.calidad{
+
+	width: 100%;
+	padding-top: 3%;
+}
+
+.imgcalidad{
+
+	width: 29%;
+	margin-left: 2%;
+}
+
+.letracalidad{
+
+	margin-top: 4%;
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+
+}
+/*-------------------FOOTER--------------------*/
+.footer{
+
+	width: 100%;
+	height: 12%;
+	background-color: #000; 
+	opacity: 0.9;
+	box-sizing: border-box;
+
+}
+
+
+.footer p{
+
+	
+	color: #fff;
+}
+
+.ladoizquierdo{
+
+	width: 50%;
+	height: 100%;
+	padding: 30px;
+	padding-left: 10%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.ladoderecho{
+
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	padding-left: 18%;
+	float: right;
+	box-sizing: border-box;
+}
+
+.footer .ladoderecho a img{
+
+	width: 40px;
+	margin-left: 5%;
+	transition: 0.5s;
+
+}
+
+.footer .ladoderecho a img:hover{
+
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+
+
+/*------------------------MEDIA-QUERY----------------------*/
+
+@media screen and (max-width: 964px){
+
+
+	.letrero{
+
+		width: 300px;
+		height: 80%;
+	}
+
+	.ladoderecho{
+
+		padding: 20px;
+	}
+
+	.banner a{
+
+		font-size: 20px;
+	}
+
+	.menu{
+
+		top: 175px;
+		left: 120px;
+	}
+
+	.local{
+
+		top: 230px;
+		left: 120px;
+	}
+
+	.reservaciones{
+
+		top: 290px;
+		left: 80px;
+	}
+	
+	.contactenos{
+
+		top: 340px;
+		left: 90px;
+	}
+
+}
+
+@media screen and (max-width: 770px){
+
+	
+	.footer{
+
+		height: 30%;
+	}
+	
+	.ladoizquierdo{
+
+		width: 100%;
+		height: 50%;
+		text-align: center;
+	}
+
+	.ladoderecho{
+
+		width: 100%;
+		height: 50%;
+		padding-left: 28%;
+	}
+}
+
+@media screen and (max-width: 580px){
+
+
+	.logo{
+
+		display: none;
+	}
+
+	.logomenu{
+
+		display: none;
+	}
+
+	.ladoderecho{
+
+		padding-left: 15%;
+	}
+
+	.footer .ladoderecho a img{
+
+		width: 30px;
+	}
+
+	.footer .ladoizquierdo p{
+
+		font-size: 15px;
+	}
+}
+
+
+
+/*-----------------------MENU--------------------------*/
+/*----------BANNER-MENU----------------*/
+/*LADO IZQUIERDO*/
+.banner2{
+
+	width: 30%;
+	float: left;
+}
+
+#muestracarta{
+
+	
+}
+
+.cartamenu{
+
+	width: 95%;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+.banner2 a:hover{
+
+	color: #000;
+	text-decoration: none;
+}
+
+.letrero2{
+
+	float: left;
+	width: 400px;
+	height: 480px;
+	position: fixed; 
+	display: none;
+
+}
+
+a .logomenu{
+
+	width: 250px;
+	height: 250px;
+	position: fixed;
+	top: 400px;
+	left: 75px; 
+}
+
+.index2{
+
+
+	position: fixed;
+	top: 70px;
+	left: 120px;
+	font-family: 'Gloria Hallelujah', cursive;
+	display: none;
+	text-decoration: none;
+	color: #000;
+	font-size: 40px;
+}
+
+.menu2{
+
+	position: fixed;
+	top: 200px;
+	left: 160px;
+	font-family: 'Gloria Hallelujah', cursive;
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.local2{
+
+	position: fixed;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 260px;
+	left: 160px;
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.reservaciones2{
+
+	position: fixed;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 325px;
+	left: 110px;
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+.contactenos2{
+
+	position: fixed;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 390px;
+	left: 120px;
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+/*LADO DERECHO*/
+
+.cabecera{
+
+	width: 100%;
+	height: 130px;
+}
+
+.tituloplatos{
+
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: left;
+	font-size: 50px;
+}
+
+.letrascabecera{
+
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	position: absolute;
+	top: 60px;
+	left: 630px;
+}
+
+.platos{
+
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+
+.opciones{
+
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+.iconosdiv{
+
+	width: 100%;
+	height: 30%;
+	padding: 10%;
+}
+
+.icono{
+
+	width: 30px;
+	border-radius: 50%;
+	border: none;	
+}
+
+.icono:active{
+
+	transform: scale(1.1);
+}
+
+.icono:focus{
+
+	outline: 0;
+}
+
+.cabecera-platos{
+
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+.body-platos{
+
+	width: 100%;
+	box-sizing: border-box;
+	padding-right: 3%; 
+}
+
+.platos .body-platos h2{
+
+	color: #fff;
+	margin-top: 5%;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.platos hr{
+
+	color: #fff;
+	width: 95%;
+}
+
+.platos .body-platos hr{
+
+	color: #fff;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 3%; 
+}
+
+.platos .cabecera-platos a img{
+
+	width: 150px;
+	transition: 0.5s;
+
+}
+
+
+.cajon-comida{
+
+	width: 90%;
+	height: 200px;
+	background-color: #000;
+	margin: 2%;
+	border-radius: 10px;
+	background-size: cover;
+	background-position: 50% 50%;
+	-webkit-box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+	-moz-box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+	box-shadow: 15px 18px 25px -4px  rgba(0,0,0,1);
+
+}
+
+/*PAISES*/
+
+.activo{
+
+	opacity: 1;
+
+}
+
+.peru{
+
+	position: relative;
+	left: 70px;
+	opacity: 0.9;
+}
+
+.china{
+
+	left: 80px;
+	position: relative;
+	opacity: 0.9;
+
+}
+.egipto{
+
+	left: 100px;
+	position: relative;
+	opacity: 0.9;
+
+}
+.italia{
+
+	left: 90px;
+	position: relative;
+	opacity: 0.9;
+
+}
+.australia{
+
+	left: 110px;
+	position: relative;
+	opacity: 0.9;
+}
+
+/*--------hover paises------------*/
+
+.zoom:hover{
+
+	transform: scale(0.9);
+	opacity: 1.0;
+}
+
+.footer-menu{
+
+	width: 100%;
+	height: 170px;
+	background-color: #000;
+}
+
+/*-----------------------MODALES---------------------*/
+
+.modal-header{
+
+	background-image: url("../img/bonfire.png");
+	color: #fff;
+}
+
+.modal-footer{
+
+	background-image: url("../img/bonfire.png");
+}
+
+
+/*-------------------------CARTEL / LOG-IN / LOG-OUT-----------------------------*/
+
+.cartel{
+
+	position: fixed;
+	left: 110px;
+	width: 180px;
+	bottom: 0px;
+
+}
+
+select{
+
+	width: 20%;
+}
+
+label{
+
+	display: block;
+}
+
+
+
+
